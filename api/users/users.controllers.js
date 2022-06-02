@@ -1,7 +1,7 @@
 const User = require("../../models/User");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
-const { JWT_SECRET, JWT_EXP } = require("../keys");
+const { JWT_SECRET, JWT_EXP } = require("../../config/keys");
 
 const generateToken = (user) => {
   const payload = {

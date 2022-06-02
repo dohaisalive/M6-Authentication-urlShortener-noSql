@@ -1,4 +1,4 @@
-const connectDb = require("./database");
+const connectDb = require("./config/database");
 const express = require("express");
 const urlRoutes = require("./api/urls/urls.routes");
 const userRoutes = require("./api/users/users.routes");
